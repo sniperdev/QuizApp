@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: lato,sans-serif;
+}
+/*ProgressBar*/
+.progression{
+  display: flex;
+}
+.progressBar,.progressBarActive{
+  position: relative;
+  margin: 5px 10px;
+  background-color: #afafaf;
+  width: 25%;
+  height: 8px;
+  border-radius: 6px;
+}
+.progressBarActive::before{
+  position: absolute;
+  content: "";
+  background-color: #ffb901;
+  width: 100%;
+  height: 8px;
+  border-radius: 6px;
+  animation: progressAnim .5s linear;
+}
+@keyframes progressAnim{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
+/*Panel*/
+.questionCard{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 45vw;
+  height: 50vh;
+}
+.questionCard .questionNumber{
+  font-size: 16px;
+  text-align: center;
+  color: #ffb901;
+  margin: 20px;
+}
+.questionCard .question{
+  color: #000938;
+}
+.questionCard .answerBox{
+  display: block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  color: #4f505e;
+}
+.questionCard .answerBox:first-of-type{
+  margin-top: 50px;
+}
+.questionCard button{
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #108cfe;
+  font-size: 16px;
+  color: white;
+}
+.questionCard button:hover{
+  background-color: #0e7ee5;
+}

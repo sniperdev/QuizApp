@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Inside which HTML element do we put the JavaScript?",
+    "a": "<scripting>",
+    "b": "<js>",
+    "c": "<javascript>",
+    "d": "<script>",
+    "correct": "d"
+  },
+  {
+    "question": "How do you write \"Hello World\" in an alert box?",
+    "a": "alert('Hello World')",
+    "b": "msgBox('Hello World')",
+    "c": "alertBox('Hello World')",
+    "d": "msg('Hello World')",
+    "correct": "a"
+  },
+  {
+    "question": "How to write an IF statement in JavaScript?",
+    "a": "if(i == 5)",
+    "b": "if i = 5",
+    "c": "if i == 5 then",
+    "d": "if i = 5 then",
+    "correct": "a"
+  },
+  {
+    "question": "How does a FOR loop start?",
+    "a": "for(i=0;i<=5)",
+    "b": "<for(i=0;i<=5;i++)",
+    "c": "for i=5 to 5",
+    "d": "for (i<=5;i++)",
+    "correct": "b"
+  },
+  {
+    "question": "How do you round the number 7.25, to the nearest integer?",
+    "a": "round(7.25)",
+    "b": "Math.round(7.25)",
+    "c": "rnd(7.25)",
+    "d": "Math.rnd(7.25)",
+    "correct": "b"
+  }
+]
